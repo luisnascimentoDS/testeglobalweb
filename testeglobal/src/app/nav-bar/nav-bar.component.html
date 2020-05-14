@@ -1,0 +1,22 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a [routerLink]="['/welcome']" class="navbar-brand">Candidatos</a>
+
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a [routerLink]="['/welcome']" routerLinkActive="active" class="nav-link">Principal</a>
+            </li>
+            <li class="nav-item">
+              <a [routerLink]="['/cadastro']" routerLinkActive="active" class="nav-link">Cadastro</a>
+            </li>
+            <li class="nav-item">
+              <a [routerLink]="['/candidatos']" routerLinkActive="active" class="nav-link">Lista</a>
+            </li>
+        </ul>
+    </div>
+</nav>
